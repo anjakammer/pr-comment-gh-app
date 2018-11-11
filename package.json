@@ -1,0 +1,15 @@
+{
+  "name": "brigade-pr-comments",
+  "version": "0.0.1",
+  "license": "UNLICENSE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "jsonwebtoken": "8.3.0",
+    "request": "2.88.0",
+    "request-promise": "4.2.2"
+  }
+}
