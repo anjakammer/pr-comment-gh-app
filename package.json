@@ -1,5 +1,5 @@
 {
-  "name": "brigade-pr-comments",
+  "name": "pr-comments-gh-app",
   "version": "0.0.1",
   "license": "UNLICENSE",
   "main": "index.js",
