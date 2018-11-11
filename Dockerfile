@@ -1,8 +1,11 @@
-# https://github.com/GoogleCloudPlatform/nodejs-docker
-FROM launcher.gcr.io/google/nodejs
+FROM node:8-slim
 
-# Copy application code.
-COPY . /app/
+WORKDIR /usr/src/app
 
-# Install dependencies.
-RUN npm --unsafe-perm install
+COPY package*.json ./
+
+RUN yarn install
+
+COPY . .
+
+CMD [ "yarn", "start" ]
