@@ -3,7 +3,6 @@ The comment is for providing the new preview URL
 of the newly deployed application, after a new push to a pull request.
 
 GitHub App Permissions:
-* read Repository Contents
 * read&write Pull Requests
 
 GitHub Events:
@@ -17,4 +16,4 @@ GitHub Events:
 | `APP_ID`        | GitHub-App Id            |
 | `PRIVATE_KEY`   | GitHub-App Private Key   |
 | `WAIT_MS`       | ms to wait before sending|
-| `COMMENT`       | Comment to sending       |
+| `COMMENT`       | Comment to send          |
