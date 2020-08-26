@@ -4,12 +4,16 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "express": "4.16.4",
     "jsonwebtoken": "8.3.0",
     "request": "2.88.0",
-    "request-promise": "4.2.2"
-  }
+    "request-promise": "4.2.2",
+    "snyk": "^1.385.0"
+  },
+  "snyk": true
 }
